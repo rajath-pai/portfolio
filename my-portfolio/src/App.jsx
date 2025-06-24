@@ -87,7 +87,8 @@ export default function ComingSoon() {
             Currently building something amazing to showcase my journey and skills.
           </p>
 
-          {/* Email notification */}
+          {/*
+          {/* Email notification *}
           <div className="mb-12">
             <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
               <input
@@ -100,17 +101,17 @@ export default function ComingSoon() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
-          </div>
+          </div> */}
 
           {/* Social links */}
           <div className="flex justify-center gap-6">
-            <a href="#" className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300 hover:scale-110">
+            <a href="https://github.com/rajath-pai/" className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300 hover:scale-110" target="_blank">
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300 hover:scale-110">
+            <a href="https://www.linkedin.com/in/rajath-pai-k/" className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300 hover:scale-110" target="_blank">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="#" className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300 hover:scale-110">
+            <a href="mailto:rajathpai93@gmail.com" className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300 hover:scale-110" target="_blank">
               <Mail className="w-6 h-6" />
             </a>
           </div>
